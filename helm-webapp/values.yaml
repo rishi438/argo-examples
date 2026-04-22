@@ -9,7 +9,7 @@ configmap:
 
 image:
   name: ghcr.io/rishi438/streamflix-webserver
-  tag: latest
+  tag: e31c60d
 
 imagePullSecrets:
   - name: ghcr-secret
