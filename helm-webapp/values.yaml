@@ -5,7 +5,7 @@ port: 80
 configmap:
   name: myhelmapp-configmap-v1
   data:
-    CUSTOM_HEADER: 'This app was deployed with helm!'
+    CUSTOM_HEADER: 'This app was deployed with helm! This is cool!'
 
 image:
   name: ghcr.io/rishi438/streamflix-webserver
