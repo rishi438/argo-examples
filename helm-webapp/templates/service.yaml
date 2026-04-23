@@ -6,9 +6,9 @@ metadata:
     app: {{ .Values.appName }}
 spec:
   ports:
-  - port: 80
-    protocol: TCP
-    name: flask
+  - port: 80           
+     targetPort: 5000     
+     nodePort: 30886      
   selector:
     app: {{ .Values.appName }}
     tier: frontend
